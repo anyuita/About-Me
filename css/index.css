@@ -5,6 +5,10 @@
 
 .masthead {
   padding: 6em 0;
+  background-image: url(http://i.imgur.com/Khz4Wi8.jpg);
+  background-size: cover;
+  border-top-style: solid;
+  border-top-color: #e65c00;
 }
 
 .masthead-intro {
@@ -13,17 +17,4 @@
 
 .masthead-heading {
   margin-top: -0.2em;
-}
-
-.masthead {
-  background-image: url('http://7-themes.com/data_images/out/25/6852440-storm-clouds-background.jpg');
-}
-
-//.masthead-intro {
-background-image: url('http://7-themes.com/data_images/out/25/6852440-storm-clouds-background.jpg');
-background-color: black;
-color: white;
-text-align: center;
-font-size: xx-large;
-
 }
