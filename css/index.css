@@ -1,20 +1,122 @@
+body {
+    /* Typography Declarations */
+    color: #433333;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #FF8F22
+}
+
 .masthead-intro,
-.masthead-heading {
-  text-align: center;
+.masthead-heading,
+.content-footer {
+    text-align: center;
 }
 
 .masthead {
-  padding: 6em 0;
-  background-image: url(http://i.imgur.com/Khz4Wi8.jpg);
-  background-size: cover;
-  border-top-style: solid;
-  border-top-color: #e65c00;
+    padding: 6em 0;
+    background-image: url('http://i.imgur.com/Khz4Wi8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #e65c00;
 }
 
 .masthead-intro {
-  margin-bottom: 0.1em;
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    text-shadow: 2px 2px 1px black;
 }
 
 .masthead-heading {
-  margin-top: -0.2em;
+    /* Layout Declarations */
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0px black;
 }
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social-links > li {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declaration */
+    letter-spacing: 0.05em;
+}
+
+.introduction-section > p {
+    font-weight: bolder;
+}
+
+.location-section > p {
+    font-weight: bold;
+}
+
+.content-footer > p {
+    font-weight: 700;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout Declarations */
+    margin: 2em 0 1em 0;
+}
+
+section > h1 {
+    margin-top: 2em;
+    text-shadow: 1px 1px 1px black;
+}
+
+.github-icon {
+    color: #EF09E8;
+}
+
+.linked-in-icon {
+    color: #244ADE;
+}
+
+.google-plus-icon {
+    color: #278531;
+}
+
+.social-links > li a {
+    text-decoration: none;
+    color: #E05721;
+}
+
+ul.social-links {
+    padding: 0;
+}
+
+.content-footer {
+    color: orange;
+    background-color: #401900
+}
+
+/*Shift, Tab - cancels all tabs*/
+/*Ctrl, Shift, / - makes into a comment*/
+/*Ctrl, Shift, Up or Down - moves current line up or down/
+/*Ctrl, Shift, Left or Right - highlights word by word*/
+/*Ctrl, Left or Right - moves between commanding punctuation on words*/
+/*Ctrl, Shift, P - brings up Command Palette*/
